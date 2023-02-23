@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
     <title>AboutMe</title>
 </head>
 
@@ -20,96 +21,14 @@
         design and engineer my own video game for youtubers and streamers to play!
     </h4>
     </main>
-
-    <script>
-        "use strict.";
-    function math(){
-       let answer = prompt("Is 5 + 5 = 10?","y or n")
-       
-       if(answer.toLowerCase() =="y"){
-        alert("Correct!");
-        console.log("user got math question right.")
-       }else{
-        alert("Wrong answer!!");
-        console.log("user got math question wrong.")
-
-       }
- 
-    }
-    math();
-
-    function sky(){
-       let answer = prompt("Is the sky blue?","y or n")
-
-       if(answer.toLowerCase() =="y"){
-        alert("Correct!");
-        console.log("user got sky question right.")
-       }else{
-        alert("Wrong answer!!");
-        console.log("user got sky question wrong.")
-
-       }
- 
-    }
-    sky();
-
-    function coding(){
-       let answer = prompt("is coding easy?","y or n")
-
-       if(answer.toLowerCase() =="n"){
-        alert("Correct!");
-        console.log("user got the code question right.")
-       }else{
-        alert("Wrong answer!!");
-        console.log("user got the code question wrong.")
-
-       }
- 
-    }
-    coding();
-
-    function anime(){
-       let answer = prompt("Do you watch anime?","y or n")
-
-       if(answer.toLowerCase() =="n"){
-        alert("Boooo!");
-        console.log("user does not watch anime.")
-       }else{
-        alert("W mans or womans!!");
-        console.log("user watches anime.")
-
-       }
- 
-    }
-    anime();
-
-    function celtics(){
-    let answer = prompt("Are you a celtics fan?","y or n")
-
-    if(answer.toLowerCase() =="n"){
-        alert("Eh you suck...");
-        console.log("User is not a fan.")
-    }else{
-        alert("Ay you lit!");
-        console.log("user is a fan")
-    }
-    }
-    celtics();
-
-    function whoyou(){
-        const username = prompt("What is your name?")
-        if(username != null) {
-       alert("What's Up, welcome to my page. " + username);
-   }else{
-        alert("What's Up, welcome to my page.");
-   }
-   alert("Hope you enjoy the rest of your stay!");
-    }
-    whoyou();
-     
-     
+<h2>Prove you're not a robot</h2>
+    <p>1. Is 5+5=10? (y/n)</p> <input type="text" id="math"> <button id="math" onclick="math()">Check</button>
+    <p>2. Is the Sky blue (y/n)</p> <input type="text" id="sky"> <button id="sky" onclick="sky()">Check</button>
+    <p>3. Is Coding easy ? (y/n)</p> <input type="text" id="coding"> <button id="coding" onclick="coding()">Check</button>
+    <p>4.Do you watch anime? (y/n)</p> <input type="text" id="anime"> <button id="anime" onclick="anime()">Check</button>
+    <p>5. Are you a celtics fan? (y/n)</p> <input type="text" id="celtics"> <button id="celtics" onclick="celtics()">Check</button>
     
-    </script>
+
 </body>
 <link rel="stylesheet" href="index.css">
 </html>
